@@ -1,0 +1,206 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"tem",
+				"template_c"
+			],
+			[
+				"te",
+				"template_b"
+			],
+			[
+				"rvm",
+				"rvm_path"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/marko/Projects/pcs/pcs_code_challenge_01/madlibs.rb",
+		"/home/marko/Projects/personalwww/public/css/main.css",
+		"/home/marko/Projects/personalwww/views/index.erb",
+		"/home/marko/Projects/personalwww/personalwww.rb",
+		"/home/marko/Projects/pcs/pcs_code_challenge_01/README.md",
+		"/home/marko/Projects/pcs/play/madlibs.rb",
+		"/home/marko/Projects/pcs/pcs_code_challenge_01/code_challenge_01",
+		"/etc/sudoers",
+		"/home/marko/.conkyrc",
+		"/home/marko/.bashrc",
+		"/home/marko/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/marko/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/marko/.config/sublime-text-3/Packages/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Please",
+			"\"",
+			" \"",
+			"240"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/home/marko/Projects/pcs"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
