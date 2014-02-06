@@ -65,8 +65,8 @@ Semantic Versioning schema: http://semver.org/
 1. A class is a template for creating objects. In Ruby, everything is an object, identified by it's class (ex: 1 is class Fixnum, and Fixnum itself is class Class.)
 
 2. Snippet:
-'''
-  class NewClass
+
+  '''class NewClass
     attr_accessor :instancevar
 
     class << self
@@ -82,8 +82,7 @@ Semantic Versioning schema: http://semver.org/
     # with:
     #         private :private_method, :other_private_method
     end
-  end
-  '''
+  end'''
 
 3. Method calls:
 
