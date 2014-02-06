@@ -4,7 +4,8 @@
    Change note highlights and announcement: https://www.ruby-lang.org/en/news/2013/02/24/ruby-2-0-0-p0-is-released/
    Comprehensive rundown: http://blog.marc-andre.ca/2013/02/23/ruby-2-by-example/
 
-2. [warning longer than two sentences] One of the biggest changes to Ruby 2.0.0 include keyword arguments which give APIs greater flexibility and can make API documentation self-descriptive (ie. instead of having 
+2. [warning longer than two sentences] One of the biggest changes to Ruby 2.0.0 include keyword arguments which give APIs greater flexibility and can make API documentation self-descriptive 
+   (ie. instead of having 
 
       `10.step(100, 2)`
 
@@ -16,7 +17,7 @@
 
    *Extra:* 6 minute keyword argument rundown video: http://www.youtube.com/watch?v=u8Q6Of_mScI
 
-   Other niceties include optimizations for various operations, including a special optimization for Rails startup, UTF-8 default encoding, and symbol list syntactic sugar (%i[apple pear plum]).
+   Other niceties include optimizations for various operations, including a special optimization for Rails startup, UTF-8 default encoding, and symbol list syntactic sugar `%i[apple pear plum]`.
 
 - - -
 
@@ -102,12 +103,14 @@ Semantic Versioning schema: http://semver.org/
 1. The truthiness of something in Ruby is an object's boolean value when used in a boolean context (typecasting). In Ruby, everything except for nil and false are true. Even 0.
 
 2. False:
-..* false
-..* nil
-
+```
+false
+nil
+```
 3. True:
-..* Everything else
-
+```
+Everything else
+```
 - - -
 
 ### = vs == vs ===
