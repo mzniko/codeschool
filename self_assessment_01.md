@@ -6,11 +6,11 @@
 
 2. [warning longer than two sentences] One of the biggest changes to Ruby 2.0.0 include keyword arguments which give APIs greater flexibility and can make API documentation self-descriptive (ie. instead of having 
 
-    10.step(100, 2) 
+      '10.step(100, 2)'' 
 
    you may instead have (if implemented this way)
 
-    10.step by: 2, to: 100
+      '10.step by: 2, to: 100'
 
    Also, instead of requiring defaults for positional arguments (or an **extra at the end), you can now use a mixture of named args, variables, blocks, defaults and catch-alls.
 
@@ -39,7 +39,7 @@ Semantic Versioning schema: http://semver.org/
 
 ### What is a gem? What is "gem"?
 
-1. A "gem" is the standardized format of a Ruby program or library for us with the RubyGems package manager. RubyGems allows for easy installation and distribution of gems, while programs like Bundler ease gem management within a project context.
+1. A "gem" is the standardized format of a Ruby program or library for use with the RubyGems package manager. RubyGems allows for easy installation and distribution of gems, while programs like Bundler ease gem management within a project context.
 
 2. Ruby gem hosting: http://rubygems.org/
 
@@ -65,31 +65,32 @@ Semantic Versioning schema: http://semver.org/
 1. A class is a template for creating objects. In Ruby, everything is an object, identified by it's class (ex: 1 is class Fixnum, and Fixnum itself is class Class.)
 
 2. Snippet:
+'''
+  class NewClass
+    attr_accessor :instancevar
 
-    class NewClass
-      attr_accessor :instancevar
- 
-      class << self
-        attr_accessor :classvar
-      end
- 
-      def public_method
-      end
- 
-      private 
-      def private_method
-      # alternatively, methods may be made private all at once
-      # with:
-      #         private :private_method, :other_private_method
-      end
+    class << self
+      attr_accessor :classvar
     end
+
+    def public_method
+    end
+
+    private 
+    def private_method
+    # alternatively, methods may be made private all at once
+    # with:
+    #         private :private_method, :other_private_method
+    end
+  end
+  '''
 
 3. Method calls:
 
-    thing = NewClass.new
-    thing.public_method
-    thing.instancevar = "set"
-    thing.classvar = "set"
+      thing = NewClass.new
+      thing.public_method
+      thing.instancevar = "set"
+      thing.classvar = "set"
 
 4. Eloquent Ruby Chapter 7 covers regular instance variables, accessors and visibility, while Chapter 14 covers class instance variables, including making self be a singleton class to enable class-level attribute accessors (singletons are covered in Chapter 13).
 
@@ -113,10 +114,11 @@ Semantic Versioning schema: http://semver.org/
 1. Ruby has an === operator (though for most classes it defaults to use ==), it is used for case statement methods (overridden) or as an alias for the kind_of? method when used against Class objects. (ex: (1...10) === 5 returns true, Float === 1.0 is true, but 1.0 === Float is false.)
 
 2. Comparison:
+'''
     var = 1 # = is an assignment operator
     var == 1 (true) # == is an equality operator
     FixNum === 1 (true) # === is an overridden case operator
-
+'''
 - - -
 
 ### Many happy returns
