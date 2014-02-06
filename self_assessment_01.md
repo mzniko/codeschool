@@ -66,7 +66,8 @@ Semantic Versioning schema: http://semver.org/
 
 2. Snippet:
 
-  ```class NewClass
+```
+  class NewClass
     attr_accessor :instancevar
 
     class << self
@@ -82,15 +83,16 @@ Semantic Versioning schema: http://semver.org/
     # with:
     #         private :private_method, :other_private_method
     end
-  end```
+  end
+```
 
 3. Method calls:
-
+```
       thing = NewClass.new
       thing.public_method
       thing.instancevar = "set"
       thing.classvar = "set"
-
+```
 4. Eloquent Ruby Chapter 7 covers regular instance variables, accessors and visibility, while Chapter 14 covers class instance variables, including making self be a singleton class to enable class-level attribute accessors (singletons are covered in Chapter 13).
 
 - - -
