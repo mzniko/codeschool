@@ -6,11 +6,11 @@
 
 2. [warning longer than two sentences] One of the biggest changes to Ruby 2.0.0 include keyword arguments which give APIs greater flexibility and can make API documentation self-descriptive (ie. instead of having 
 
-      '10.step(100, 2)'' 
+      `10.step(100, 2)`
 
    you may instead have (if implemented this way)
 
-      '10.step by: 2, to: 100'
+      `10.step by: 2, to: 100`
 
    Also, instead of requiring defaults for positional arguments (or an **extra at the end), you can now use a mixture of named args, variables, blocks, defaults and catch-alls.
 
@@ -66,7 +66,7 @@ Semantic Versioning schema: http://semver.org/
 
 2. Snippet:
 
-  '''class NewClass
+  ```class NewClass
     attr_accessor :instancevar
 
     class << self
@@ -82,7 +82,7 @@ Semantic Versioning schema: http://semver.org/
     # with:
     #         private :private_method, :other_private_method
     end
-  end'''
+  end```
 
 3. Method calls:
 
@@ -113,11 +113,11 @@ Semantic Versioning schema: http://semver.org/
 1. Ruby has an === operator (though for most classes it defaults to use ==), it is used for case statement methods (overridden) or as an alias for the kind_of? method when used against Class objects. (ex: (1...10) === 5 returns true, Float === 1.0 is true, but 1.0 === Float is false.)
 
 2. Comparison:
-'''
+```
     var = 1 # = is an assignment operator
     var == 1 (true) # == is an equality operator
     FixNum === 1 (true) # === is an overridden case operator
-'''
+```
 - - -
 
 ### Many happy returns
