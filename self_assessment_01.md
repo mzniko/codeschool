@@ -29,7 +29,7 @@ Semantic Versioning schema: http://semver.org/
 
 - - -
 
-# What is MRI, what are some alternative rubies?
+### What is MRI, what are some alternative rubies?
 
 1. MRI is "Matz's Ruby Interpreter", aka CRuby, and is the reference implementation of Ruby. The interpreter is written in C and uses a Ruby-specific virtual machine.
 
