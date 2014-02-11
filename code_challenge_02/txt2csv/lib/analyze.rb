@@ -1,5 +1,4 @@
-require 'pp'
-
+# This analyzes the shit out of some shit
 class Analyze
   attr_reader :regex_hash
 
@@ -16,11 +15,11 @@ class Analyze
     when '-s'
       @text.each_line { |line| suffix_regex(line) }
     else
-     abort("usage: " + __FILE__ + " [-p | -s] < [filename]")
+      abort('usage: ' + __FILE__ + ' [-p | -s] < [input] > [output]')
     end
-    
+
     @regex_hash = Hash[@regex_hash.sort_by { |name, num| num }.reverse]
-    @regex_hash.each { |name, num| puts "#{name} #{num}"}
+    @regex_hash.each { |name, num| puts "#{name} #{num}" }
   end
 
   def prefix_regex(line)
