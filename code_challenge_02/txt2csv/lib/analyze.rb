@@ -18,10 +18,13 @@ class Analyze
     else
      abort("usage: " + __FILE__ + " [-p | -s] < [filename]")
     end
+    
+    @regex_hash = Hash[@regex_hash.sort_by { |name, num| num }.reverse]
+    @regex_hash.each { |name, num| puts "#{name} #{num}"}
   end
 
   def prefix_regex(line)
-    prefix = /^\w+/.match(line).to_s
+    prefix = /^\w+[\.]*/.match(line).to_s
     @regex_hash[:"#{prefix}"] += 1
   end
 
@@ -35,4 +38,3 @@ end
 
 run = Analyze.new
 run.analyze
-pp run.regex_hash
